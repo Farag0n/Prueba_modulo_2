@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is personal portfolio from Miguel Angel Angarita">
+    <meta name="keywords" content="portfolio, personal information, coder, Riwi, development, html, css, programing">
+    <title>Miguel Angarita portfolio</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+
+<body>
+
+    <nav class="nav_bar">
+        <a href="#home">Home</a>
+        <a href="#about_me">About me</a>
+        <a href="#projects">Proyects</a>
+        <a href="#contact">Contact me</a>
+        <!-- <button id="change_mode">Dark mode</button> -->
+    </nav>
+
+    <header>
+        <!-- Mother box to home section, this box is divided into two -->
+        <section id="home">
+            <!-- Box 1(text)-->
+            <div class="name_ocupation">
+                <h1>
+                    <p class="hello">Hello, Iam</p>
+                    <p class="name">Miguel Angarita</p>
+                </h1>
+                <p>Riwi coder | Production assistant</p>
+            </div>
+            
+            <!-- Box 2(picture) -->
+            <div class="principal_picture">
+                <img src="/src/assets/record_coffe_class.jpg" alt="Miguel Angarita with capuccino" width="300"">
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <!-- Mother box to my personal information, this box is divided into three-->
+        <section id="about_me">
+            <!-- Box 1(Picture and name) -->
+            <div class="picture_name">
+                <img src="/src/assets/yisus_cosplay.png" alt="Miguel Angarita picture">
+                <h3>Miguel Angarita</h3>
+            </div>
+
+            <!-- Box 3(Personal and technical information) -->
+            <div class="information">
+
+                <p class="description">
+                    I'm a Riwi coder learning to program. I still have a basic grasp of the programming languages I'm learning.<br>
+                    I'm a robotics and electronics geek, and I've been self-taught.
+                    For now, I'm leaning more toward the back-end branch, especially the logic side.
+                    I'm interested in learning low-level languages and assembly language so I can create my own Linux distro, programs, or drivers.
+                </p>
+
+                <div class="technologies">
+                    <h3>Language and technologies</h3>
+                    <ul>
+                        <img src="/src/assets/Python.png" alt="Python language logo" width="150">
+                        <img src="/src/assets/C++.png" alt="C++ language logo" width="150">
+                        <img src="/src/assets/Arduino.png" alt="Logo of the Arduino microcontroller brand" width="150">
+                        <img src="/src/assets/HTML5.png" alt="HTML markup language logo" width="150">
+                        <img src="/src/assets/CSS3.png" alt="CSS language logo" width="150">
+                        <img src="/src/assets/Git.png" alt="Logo of the Git version control software" width="150">
+                        <img src="/src/assets/GitHub.png" alt="Logo of the web platform for hosting software projects GitHub" width="150">
+                    </ul>
+                </div>
+
+                <div class="soft_skills">
+                    <h3>Soft skills</h3>
+                    <ul>
+                        <li>Stress control</li>
+                        <li>Crisis management</li>
+                        <li>work under pressure</li>
+                        <li>Empathy</li>
+                    </ul>
+                </div>
+
+                <div class="technical_skills">
+                    <h3>Technical skills</h3>
+                    <ul>
+                        <li>Basic knowledge of Python</li>
+                        <li>Handling Git and Github</li>
+                        <li>Basic knowledge of C++</li>
+                        <li>I'm learning HTML and CSS</li>
+                        <li>Basic knowledge of microcontrollers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Box 3(Social media link) -->
+            <aside class="social_media">
+                <h3>Social networks</h3>
+                <ul>
+                    <li><a href="https://mail.google.com" target="_blank" rel="personal social media"><img src="/src/assets/gmail.png" alt="Gmail logo"width="20"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" rel="personal social media"><img src="/src/assets/instagram.png" alt="instagram logo"width="20"></a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank" rel="personal social media"><img src="/src/assets/whatssapp.png" alt="whatsapp logo" width="20"></a></li>
+                    <li><a href="https://github.com/Farag0n" target="_blank" rel="personal social media"><img src="/src/assets/GitHub.png" alt=" GitHub logo" width="20"></a></li>
+                </ul>
+            </aside>
+            
+        </section>
+
+        <section id="projects">
+            <h3>Projects</h3>
+
+            <div class="api_code">
+                <img src="/src/assets/proyec_api.png" alt="python code" width="300">
+                <p>
+                    This is a small project that I would like to scale,
+                    it consists of calling an API to know the weather anywhere.
+                </p>
+            </div>
+
+            <div class="average_code">
+                <img src="/src/assets/proyect_promedio_menu.png" alt="python code" width="300">
+                <p>
+                    This is a system to calculate the grade average from the terminal 
+                </p>
+            </div>
+
+            <div class="admin_invetory">
+                <img src="/src/assets/admin_inventory_menu.png" alt="python code" width="300">
+                <p>
+                    This was my test submission for module one.
+                    It's a system for managing inventory from a terminal.
+                </p>
+            </div>
+            
+        </section>
+
+        <footer id="contact">
+            <img src="/src/assets/Linux.svg" alt="Linux pet" width="400">
+            <nav id="contact-form">
+                <form action="/send" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </nav>
+        </footer>
+    </main>
+</body>
+</html>
