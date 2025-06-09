@@ -6,6 +6,7 @@ body {
     color: white;
 }
 
+/* === Nav bar === */
 .nav_bar {
     display: flex;
     width: 100%;
@@ -43,6 +44,7 @@ header {
     
 }
 
+/* === Home === */
 #home {
     display: grid;
     width: 80%;
@@ -102,7 +104,7 @@ header {
 main {
     margin: 10%;
 }
-
+/* === About me === */
 #about_me {
     display: flex;
     justify-content: center;
@@ -163,7 +165,7 @@ main {
 }
 
 
-/* Proyectos */
+/* === Projects === */
 #projects {
     text-align: center; 
     max-width: 1000px; 
@@ -198,7 +200,7 @@ main {
     box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
-/* === Footer y formulario de contacto === */
+/* === Footer === */
 footer {
     display: flex;
     justify-content: center;
@@ -212,7 +214,7 @@ footer {
     top: 100;
 }
 
-/* Animación guardian */
+/* Animation penguin */
 footer img {
     animation: fadeInOut 4s infinite;
     margin-bottom: 20px; 
@@ -223,7 +225,7 @@ footer img {
     50% { opacity: 1; transform: scale(1.0); }
 }
 
-/* === FORMULARIO === */
+/* === FORMULARI === */
 
 #contact-form {
     width: 100%;
