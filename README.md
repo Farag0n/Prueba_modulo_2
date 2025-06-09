@@ -39,3 +39,5 @@ The projects section (#projects) is centered and stylized, with a zoom effect an
 The contact information uses tables.
 
 The contact form is centered and doesn't look bad.
+
+### Miguel Angel Angarita | Hopper | miguelanga1604@gmail.com | 1023242825
