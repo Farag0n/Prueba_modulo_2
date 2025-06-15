@@ -19,6 +19,7 @@ body {
     margin-bottom: 25;
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 
 .nav_bar a{
