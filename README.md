@@ -2,26 +2,26 @@
 This project consists of two main parts: an HTML file that structures the content and a CSS file that styles and formats the page, in addition to the assets.
 
 ## HTML
-The document begins with the basic structure for an HTML file, defining the file type, with a simple <head> but with metadata and finally the <body> making use of the correct semantic tags I think.
+The document begins with the basic structure for an HTML file, defining the file type, with a simple `<head>` but with metadata and finally the `<body>` making use of the correct semantic tags I think.
 
-### The <head> section includes essential tags such as:
+### The `<head>` section includes essential tags such as:
 
 
-<meta charset="utf-8" /> to define the character encoding.
+`<meta charset="utf-8" />` to define the character encoding.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> to make the page responsive on mobile devices.
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">` to make the page responsive on mobile devices.
 
-### The <body> the visible content is structured:
+### The `<body>` the visible content is structured:
 
-A <header> containing the navigation bar, photo, and name.
+A `<header>` containing the navigation bar, photo, and name.
 
-A <main> containing:
+A `<main>` containing:
 
 The "About Me" section with a brief description and lists of soft and technical skills, accompanied by images of the corresponding technologies.
 
 The "Projects" section showing different projects with illustrative images of the code and menus.
 
-A <footer> containing the contact section, including information, links, and a form for submitting messages.
+A `<footer>` containing the contact section, including information, links, and a form for submitting messages.
 
 ## CSS
 A fixed background color is set, and default margins and padding are removed from the body.
